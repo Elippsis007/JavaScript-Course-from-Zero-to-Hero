@@ -1,0 +1,10 @@
+Falsy Values
+
+There are 5 falsy valuse: 0, "", undefined, null, NaN
+This means that if I was to convert any of the above into a boolean I will get a faulsy value
+
+console.log(Boolean(0)); --> returns false
+console.log(Boolean(undefined)); --> returns false
+console.log(Boolean('Jonas')); --> true
+console.log(Boolean({})); --> true
+console.log(Boolean('')); --> false
